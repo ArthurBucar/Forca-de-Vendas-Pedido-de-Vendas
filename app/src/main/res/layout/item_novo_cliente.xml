@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_item_produto"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/itens_selecionado"
+        android:layout_alignLeft="@+id/itens_selecionado"
+        android:layout_alignStart="@+id/itens_selecionado"
+        android:layout_gravity="top|left"
+        android:text="3"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_item_itens"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center|left"
+        android:text="3"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_above="@+id/total_selecionado"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv_item_total"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/produto_selecionado"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/produto_selecionado"
+        android:layout_gravity="bottom"
+        android:text="R$ 330,00"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

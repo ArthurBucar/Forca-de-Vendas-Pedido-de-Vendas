@@ -1,0 +1,7 @@
+#Thu Nov 08 17:25:08 BRT 2018
+base.0=/Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/build/intermediates/transforms/dexMerger/debug/11
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/build/intermediates/transforms/dexMerger/debug/11

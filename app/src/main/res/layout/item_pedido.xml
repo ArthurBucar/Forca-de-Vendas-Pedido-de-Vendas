@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/relative0111"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/tv_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="30dp"
+        android:paddingRight="30dp"
+        android:maxLength="20"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_nPrePedidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="30dp"
+        android:text="Nº Pré-Pedido"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="50dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_nPedidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Nº Pedido Protheus"
+        android:layout_marginTop="30dp"
+        android:paddingRight="30dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_subTotals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:paddingRight="30dp"
+        android:text="Subtotal"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+            android:id="@+id/dataPed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="16dp"
+            android:layout_toRightOf="@id/tv_nome"
+            android:gravity="right"
+            android:foregroundGravity="right"
+            android:layout_alignParentRight="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/numPed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/tv_nPedidos"
+            android:layout_alignParentRight="true"
+            android:paddingRight="38dp"
+            android:gravity="right"
+            android:layout_marginRight="-25dp"
+            android:foregroundGravity="right"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/numPrePed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/tv_nPrePedidos"
+            android:layout_alignParentRight="true"
+            android:paddingRight="38dp"
+            android:layout_marginRight="-25dp"
+            android:gravity="right"
+            android:foregroundGravity="right"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/numSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:foregroundGravity="right"
+            android:layout_marginTop="80dp"
+            android:layout_toRightOf="@id/tv_subTotals"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:textColor="#28d986"
+            android:layout_marginRight="4dp"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+    <View
+        android:id="@+id/vw_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_subTotals"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="-5dp"
+        android:background="#DDD"></View>
+
+</RelativeLayout>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_listaProdutos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AcClienteSelecionado">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:gravity="top"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="408dp">
+
+        <TextView
+            android:id="@+id/item_preco"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/produto_limite"
+            android:layout_gravity="bottom|left"
+            android:layout_marginLeft="66dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:text="R$ 800,00"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/produto_limite"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="left"
+            android:layout_marginLeft="55dp"
+            android:layout_marginStart="55dp"
+            android:layout_weight="2.24"
+            android:gravity="center"
+            android:text="Limite de crédito:"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/total_pagamento"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/produto_limite"
+            android:layout_alignBottom="@+id/produto_limite"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="0.34"
+            android:gravity="center_horizontal"
+            android:text="Forma de Pagamento:"
+            android:textColor="#FFF"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bnt_escolher_pagamento"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/item_preco"
+            android:layout_alignLeft="@+id/total_pagamento"
+            android:layout_alignStart="@+id/total_pagamento"
+            android:layout_marginBottom="-3dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp"
+            android:background="@drawable/helpborder"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linearLayout3"
+        android:layout_below="@+id/relativeLayout">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvListProdutos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/linearLayout3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:src="@drawable/ic_add_white_24dp"
+        app:backgroundTint="@color/black" />
+
+    <RelativeLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        android:foregroundGravity="bottom"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/produto_selecionado"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_above="@+id/itens_selecionado"
+            android:layout_alignLeft="@+id/itens_selecionado"
+            android:layout_alignStart="@+id/itens_selecionado"
+            android:layout_gravity="center|left"
+            android:layout_marginTop="12dp"
+            android:text="Produto:"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/numProdutos"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="13dp"
+            android:text="3"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/itens_selecionado"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="43dp"
+            android:layout_marginStart="16dp"
+            android:text="Itens:"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/numItens"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="32dp"
+            android:text="3"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/total_selecionado"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@+id/itens_selecionado"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/itens_selecionado"
+            android:layout_gravity="center|left"
+            android:layout_marginBottom="11dp"
+            android:text="Total:"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/numTotalfinal"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignBaseline="@+id/total_selecionado"
+            android:layout_alignBottom="@+id/total_selecionado"
+            android:layout_alignLeft="@+id/numItens"
+            android:layout_alignStart="@+id/numItens"
+            android:text="R$ 000,000000"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bnt_forma_pagamento"
+        android:layout_width="128dp"
+        android:layout_height="45dp"
+        android:layout_alignEnd="@+id/fab"
+        android:layout_alignRight="@+id/fab"
+        android:layout_below="@+id/fab"
+        android:layout_marginRight="-5dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/helpborder"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Fechar Pedido"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

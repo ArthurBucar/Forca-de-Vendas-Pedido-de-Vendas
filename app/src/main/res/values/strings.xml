@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Pedido de Vendas</string>
+    <string name="titulo_tela_qrCode">Escaneie o código</string>
+    <string name="titulo_tela_confirma_qr">Escaneie o código</string>
+    <string name="titulo_tela_rotas">Rotas</string>
+    <string name="titulo_tela_vendas">Minhas Vendas</string>
+    <string name="result_text_default">Por favor focar no QR Code</string>
+
+    <string name="userUsuario">Usuario</string>
+    <string name="userLogin">Nome do usuário</string>
+    <string name="userSenha">Senha</string>
+    <string name="title_activity_tela_inicio">Objetive TI</string>
+    <string name="tela_inicio">Início</string>
+    <string name="tela_pedidos">Pedidos</string>
+    <string name="action_settings">Deslogar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">Objetive TI</string>
+    <string name="inicio">Início</string>
+
+    <string name="menu">Menu</string>
+    <string name="dash_inicio">Inícios</string>
+    <string name="dash_pedidos">Pedidos</string>
+    <string name="dash_clientes">Clientes</string>
+    <string name="dash_relatorios">Relatórios</string>
+
+    <string name="pedidos">Pedidos</string>
+    <string name="clientes">Clientes</string>
+    <string name="relatorios">Relatórios</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!-- Strings Para os EditText-->
+    <string name="cnpj">00.000.000/0000-00</string>
+    <string name="razaosocial">Razão Social</string>
+    <string name="nomefantasia">Nome Fantasia</string>
+    <string name="endereco">Endereço</string>
+    <string name="bairro">Bairro</string>
+    <string name="cidade">Cidade</string>
+    <string name="cep">Cep</string>
+    <string name="uf">UF</string>
+    <string name="telefone_comercial">Telefone Comercial</string>
+    <string name="celular">Celular</string>
+    <string name="contato">Contato</string>
+    <string name="email">E-mail</string>
+
+
+    <!-- Strings related to Settings -->
+
+    <string name="nome_bnt_search">Pesquisar...</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_botao">BotaoActivity</string>
+    <string name="title_activity_novo_pedido">Novo Pedido</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="title_activity_lista_rotas">ListaRotas</string>
+    <string name="action_search">pesquisar</string>
+    <string name="about">nunca</string>
+    <string name="title_activity_lista_pedidos_actitivty">ListaPedidosActitivty</string>
+    <string name="title_activity_lista_clientes">Clientes</string>
+    <string name="title_activity_tela_cliente">TelaClienteActivity</string>
+    <string name="title_activity_tela__cliente__selecionado">1000 GRAUS</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_lista_produtos">Produtos</string>
+    <string name="title_activity_alerta">AlertaActivity</string>
+    <string name="title_activity_lista__produtos__valores">Lista_Produtos_ValoresActivity</string>
+    <string name="title_activity_forma_de_pagamento">Fechar Pedido</string>
+    <string name="title_activity_novo_cliente">Novo Cliente</string>
+    <string name="title_activity_listar_de_novos_clientes">Cliente Cadastrado com Sucesso !</string>
+    <string name="PopUp">Pop UP</string>
+    <string name="title_persistir_dados">Persistir Dados</string>
+    <string name="title_activity_call_me">callMeActivity</string>
+
+</resources>

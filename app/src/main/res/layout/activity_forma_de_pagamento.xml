@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AcFormaDePagamento">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimary"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:id="@+id/item_preco"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom|left"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_below="@+id/produto_limite"
+            android:layout_alignLeft="@+id/produto_limite"
+            android:layout_alignStart="@+id/produto_limite" />
+
+        <TextView
+            android:id="@+id/produto_limite"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="left"
+            android:layout_marginLeft="55dp"
+            android:layout_marginStart="55dp"
+            android:layout_weight="2.24"
+            android:gravity="center"
+            android:text="Valor Total:"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cond_pagamento"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/produto_limite"
+            android:layout_alignBottom="@+id/produto_limite"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="0.34"
+            android:gravity="center_horizontal"
+            android:text="Cond. de Pagamento:"
+            android:textColor="#FFF"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cond_pagamento_valor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.34"
+            android:gravity="center_horizontal"
+            android:text="Escolher"
+            android:textColor="#FFF"
+            android:textSize="14dp"
+            android:layout_alignBaseline="@+id/item_preco"
+            android:layout_alignBottom="@+id/item_preco"
+            android:layout_alignLeft="@+id/cond_pagamento"
+            android:layout_alignStart="@+id/cond_pagamento"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp" />
+
+    </RelativeLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView0"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_height="350dp">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/relativeLayout"
+    android:layout_below="@+id/linearLayout3">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/data_pagamento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17/10/2017"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/txtvalorPrimeFormaPagamento"
+                android:layout_alignEnd="@+id/txtvalorPrimeFormaPagamento" />
+        _
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#28d986"
+                android:focusable="false"
+                android:textStyle="bold"
+                android:inputType="numberDecimal"
+                android:imeOptions="actionDone"
+                android:id="@+id/txtvalorPrimeFormaPagamento"
+                android:layout_marginRight="12dp"
+                android:text="0"
+                android:layout_marginEnd="12dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:id="@+id/bnt_forma_paganto"
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textAllCaps="false"
+                android:text="Escolher"
+                android:textColor="#FFF"
+                android:background="@drawable/helpborder"
+                android:layout_marginLeft="14dp"/>
+
+            <TextView
+                android:id="@+id/texto_formade_pagamento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FORMA DE PAGAMENTO"
+                android:textColor="@color/black"
+                android:layout_marginLeft="16dp"
+                android:textStyle="bold" />
+
+        <View
+            android:id="@+id/vw_divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="72dp"
+            android:background="#DDD"
+            android:foregroundGravity="bottom"></View>
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp">
+
+        <TextView
+            android:id="@+id/data_pagamento1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17/10/2017"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/txtsegundaFormPagamento"
+            android:layout_alignEnd="@+id/txtsegundaFormPagamento" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#28d986"
+            android:textStyle="bold"
+            android:focusable="false"
+            android:inputType="numberDecimal"
+            android:imeOptions="actionDone"
+            android:hint="Digite o valor"
+            android:id="@+id/txtsegundaFormPagamento"
+            android:layout_marginRight="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/bnt_forma_paganto1"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textAllCaps="false"
+            android:text="Escolher"
+            android:textColor="#FFF"
+            android:background="@drawable/helpborder"
+            android:layout_marginLeft="14dp"/>
+
+        <TextView
+            android:id="@+id/texto_formade_pagamento1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FORMA DE PAGAMENTO"
+            android:textColor="@color/black"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/vw_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="72dp"
+            android:background="#DDD"
+            android:foregroundGravity="bottom"></View>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp">
+
+        <TextView
+            android:id="@+id/data_pagamento2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17/10/2017"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/txtsegundaFormPagamento2"
+            android:layout_alignEnd="@+id/txtsegundaFormPagamento2" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#28d986"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            android:focusable="false"
+            android:imeOptions="actionDone"
+            android:hint="Digite o valor"
+            android:id="@+id/txtsegundaFormPagamento2"
+            android:layout_marginRight="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/bnt_forma_paganto2"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textAllCaps="false"
+            android:text="Escolher"
+            android:textColor="#FFF"
+            android:background="@drawable/helpborder"
+            android:layout_marginLeft="14dp"/>
+
+        <TextView
+            android:id="@+id/texto_formade_pagamento2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FORMA DE PAGAMENTO"
+            android:textColor="@color/black"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/vw_divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="72dp"
+            android:background="#DDD"
+            android:foregroundGravity="bottom"></View>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp">
+
+        <TextView
+            android:id="@+id/data_pagamento3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17/10/2017"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/txtsegundaFormPagamento3"
+            android:layout_alignEnd="@+id/txtsegundaFormPagamento3" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#28d986"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            android:focusable="false"
+            android:imeOptions="actionDone"
+            android:hint="Digite o valor"
+            android:id="@+id/txtsegundaFormPagamento3"
+            android:layout_marginRight="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/bnt_forma_paganto3"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textAllCaps="false"
+            android:text="Escolher"
+            android:textColor="#FFF"
+            android:background="@drawable/helpborder"
+            android:layout_marginLeft="14dp"/>
+
+        <TextView
+            android:id="@+id/texto_formade_pagamento3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FORMA DE PAGAMENTO"
+            android:textColor="@color/black"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/vw_divider3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="72dp"
+            android:background="#DDD"
+            android:foregroundGravity="bottom"></View>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp">
+
+        <TextView
+            android:id="@+id/data_pagamento4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17/10/2017"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/txtsegundaFormPagamento4"
+            android:layout_alignEnd="@+id/txtsegundaFormPagamento4" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#28d986"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            android:focusable="false"
+            android:imeOptions="actionDone"
+            android:hint="Digite o valor"
+            android:id="@+id/txtsegundaFormPagamento4"
+            android:layout_marginRight="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/bnt_forma_paganto4"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textAllCaps="false"
+            android:text="Escolher"
+            android:textColor="#FFF"
+            android:background="@drawable/helpborder"
+            android:layout_marginLeft="14dp"/>
+
+        <TextView
+            android:id="@+id/texto_formade_pagamento4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FORMA DE PAGAMENTO"
+            android:textColor="@color/black"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/vw_divider4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="72dp"
+            android:background="#DDD"
+            android:foregroundGravity="bottom"></View>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="408dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/total_recebido"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center|left"
+            android:paddingRight="6dp"
+            android:text="Total Recebido:"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_above="@+id/total_faltante"
+            android:layout_alignLeft="@+id/total_faltante"
+            android:layout_alignStart="@+id/total_faltante" />
+
+        <TextView
+            android:id="@+id/txtTotalRecebido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_alignBaseline="@+id/total_recebido"
+            android:layout_alignBottom="@+id/total_recebido"
+            android:layout_toRightOf="@+id/total_recebido"
+            android:layout_toEndOf="@+id/total_recebido" />
+
+        <TextView
+            android:id="@+id/total_faltante"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center|left"
+            android:text="Total Faltante:"
+            android:textColor="#fff"
+            android:layout_marginLeft="16dp"
+            android:paddingRight="6dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:id="@+id/txtTotalFaltante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_alignBaseline="@+id/total_faltante"
+            android:layout_alignBottom="@+id/total_faltante"
+            android:layout_toRightOf="@+id/total_faltante"
+            android:layout_toEndOf="@+id/total_faltante" />
+
+        <TextView
+            android:id="@+id/txtTESTE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_alignBaseline="@+id/total_faltante"
+            android:layout_alignBottom="@+id/total_faltante"
+            android:layout_toRightOf="@+id/total_faltante"
+            android:layout_toEndOf="@+id/total_faltante" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bnt_fechar_forma_de_pagamento"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/helpborder"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Finalizar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/linearLayout3"
+        android:layout_alignEnd="@+id/bnt_fechar_forma_de_pagamento"
+        android:layout_alignRight="@+id/bnt_fechar_forma_de_pagamento"
+        android:layout_marginBottom="14dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:src="@drawable/ic_add_white_24dp"
+        app:backgroundTint="@color/black" />
+
+</RelativeLayout>

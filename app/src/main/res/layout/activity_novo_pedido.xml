@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cliente_novo_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AcNovoPedido">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<ImageView-->
+        <!--android:id="@+id/TopoPedidos"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:background="@drawable/ic_person_add_white_24dp"-->
+        <!--android:foregroundGravity="top" />-->
+
+        <ImageView
+            android:id="@+id/CentroPedidos"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="false"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/ic_arrow_certo48dp"
+            android:foregroundGravity="center_horizontal|center" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/CentroPedidos"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:foregroundGravity="center_horizontal|center"
+            android:gravity="center"
+            android:textColor="#9E9E9E"
+            android:text="Comece adicionando um cliente"
+            android:textSize="27sp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="30/60/90 DIAS"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/vw_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDD"
+        android:foregroundGravity="bottom"></View>
+
+    <TextView
+        android:id="@+id/avista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="A VISTA"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <View
+        android:id="@+id/vw_divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDD"
+        android:foregroundGravity="bottom"></View>
+
+    <TextView
+        android:id="@+id/trintadias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="30 DIAS"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/vw_divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDD"
+        android:foregroundGravity="bottom"></View>
+
+    <TextView
+        android:id="@+id/quarentacinco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="45 DIAS"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/vw_divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDD"
+        android:foregroundGravity="bottom"></View>
+
+    <TextView
+        android:id="@+id/trintasixten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="30/60 DIAS"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/vw_divider6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDD"
+        android:foregroundGravity="bottom"></View>
+
+
+    <Button
+        android:id="@+id/bnt_cancelar_pagamento"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/helpborder_red"
+        android:text="Cancelar "
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

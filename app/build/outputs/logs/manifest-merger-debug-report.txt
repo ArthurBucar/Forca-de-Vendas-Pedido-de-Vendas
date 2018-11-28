@@ -1,0 +1,1015 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:2:1-177:12
+INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:2:1-177:12
+INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:2:1-177:12
+INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:2:1-177:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/28324f2fd4ac514819611c4cd38dc087/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8c704df2a32674bf728d636e74eec274/AndroidManifest.xml:17:1-31:12
+MERGED from [com.github.rtoshiro.mflibrary:mflibrary:1.0.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/mflibrary-1.0.0.aar/5cab371f011a38ee9b9bc5e1b54d0044/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-11.4.0.aar/665b1b16ee78800aeb37ce81b104d942/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/851949a937de677401373ecfd6971a3a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-cast:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.4.0.aar/2d914e415ed7cb75ac25931260d72311/AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/e537fa2147cf688f2ec80d03717e7b9d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/01df6076adfb15ba1db4a08338805021/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fba26e1f267ab0d42eca9910cf655c1b/AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/3d2b1faebaeae4896a5a71b8e2a777bc/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-awareness:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.4.0.aar/0e9e2e67cbe2dc32d1543f59729f8642/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-fitness:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.4.0.aar/4c4ca35c6274ea83ecf7e8c7a6062d53/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/afda13a1f09c80b4fb3921a11b539db6/AndroidManifest.xml:2:1-5:12
+MERGED from [com.android.support:transition:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8255078b2d52d975b35ca3636193583f/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-ads:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.4.0.aar/e498a55785a8bb286f1027e922bfaf2b/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/dcbbc0ccb99023a3dfd7155d488e2645/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-tagmanager:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-11.4.0.aar/84d14d14c9f15ab16a8b4e0e0d8b64c3/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.4.0.aar/404ee828c6bfffee8e5c9a543e2cccfe/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f98bea3f2209b23e05524b2da7207173/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/d10f169ea94172c06e5eb303b8a7620c/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/7245bb648c6cf3910f572af1e15042d6/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.4.0.aar/e709b2f2de9047085dd754b43fe3723d/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.4.0.aar/becf2b1befb82b22fc9080c79da87f78/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-config:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-config-11.4.0.aar/c87dc837938b199955f4ca2392b97418/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-games:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-games-11.4.0.aar/43b92f5841b48fdb7ba750502b1c7a37/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-drive:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.4.0.aar/3180164ea1c973934346edece0933af5/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-fido:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.4.0.aar/d750d04dc2590e1ca407067da2d643e4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.4.0.aar/5d0c543a17eedefb882377a07986e3de/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.0.aar/4b44fe98af260c35766046e82d2dcc3a/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/5a3eb5d72f87dcc9b0360e109eda52d2/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-appindexing:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.4.0.aar/40885ebb8c80a671465aba9aeb255672/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-wallet:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.4.0.aar/fd77097288616ef08b2e0f557242f239/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-identity:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.4.0.aar/32c90bc92271941bd9a9aca614b39f30/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/40ac606d65ae6d0f396b305ac073da4f/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-instantapps:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-11.4.0.aar/793542a93108e5be50f8fdc4a3900842/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-places:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-places-11.4.0.aar/3cbfdd370774556445085a106024c732/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/3ca0d8173d844fdad56cf00785152693/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/ed2a00fb5a854cfababae71c1dafbd25/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-panorama:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.0.aar/3490f233320f2be8ecf278ec293acc78/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-plus:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.4.0.aar/9e93300305b9c43612b8618ab329efb9/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.4.0.aar/f495e980e8565cf26c3577f37fccba2d/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-vision:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.4.0.aar/9bd0fe98540bc51b3416688d51634a95/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.4.0.aar/4619ea92e2cb9ecb7d8bed4670b3ea53/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-wearable:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.4.0.aar/40c63225530a9385cac67e148954c8cb/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/ceb3fb637ae327eaeb3e4df38e0af557/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/edb025c61fb0ef4560ebff7b9d09b97d/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.firebase:firebase-database:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-database-11.4.0.aar/2edb050df452d86a1917016f05e2d663/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-database-connection:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.4.0.aar/fd38160e27cc83537a7f81f709f14778/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/37c12bf76affd0d5b6b89656ecc9f691/AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/a0c4d4818092ce0380874344943c92a0/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-storage:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.4.0.aar/796caf596562613df351dde5e3a2e28f/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-storage-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.4.0.aar/d12214b2da7d6e789fecbbb0d7ef6ccc/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/430b55f66d8b8aa45c1c3a6566dd4eb8/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-gass:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.4.0.aar/decdd7095d843a8a8b8894bfdaa4a138/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/4053c251d92f86234039c87ed55a7a99/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/f7ec94d6756afe2d2229c86bdfa6acde/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9ce41f35609dfece24aa7c5e2b3f6a7a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cf27b08573e8cc6ac5e64b4a1c8044e5/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0a8efa22a8ea91d501c06eceb167cf54/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/06d3ec4ae9d22fa5a548cb9523dd3fef/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.4.4.aar/90eaee95ecf42c95082aae5995ed2567/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8a9c9de8c3c27ac07d70e0461428bb03/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/74c8464d003844498bd848ca7cf46325/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d00fb15175d02c769d3e3db7a3cd7f75/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/0751303f018090c0736db67efc90e931/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/9a6112c05011a533a011ad1873afd8a0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3a3efe19235a1cd7d1fe4c3eaaa2ed99/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/52651732b8bc3e2c18e1edcbb853290f/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:2:1-177:12
+INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:2:1-177:12
+INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:2:1-177:12
+	package
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:2:1-177:12
+		INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:2:1-177:12
+		INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:6:22-63
+uses-permission#android.permission.INTERNET
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/dcbbc0ccb99023a3dfd7155d488e2645/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/dcbbc0ccb99023a3dfd7155d488e2645/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f98bea3f2209b23e05524b2da7207173/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f98bea3f2209b23e05524b2da7207173/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/d10f169ea94172c06e5eb303b8a7620c/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/d10f169ea94172c06e5eb303b8a7620c/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/5a3eb5d72f87dcc9b0360e109eda52d2/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/5a3eb5d72f87dcc9b0360e109eda52d2/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/40ac606d65ae6d0f396b305ac073da4f/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/40ac606d65ae6d0f396b305ac073da4f/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/3ca0d8173d844fdad56cf00785152693/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/3ca0d8173d844fdad56cf00785152693/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/edb025c61fb0ef4560ebff7b9d09b97d/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/edb025c61fb0ef4560ebff7b9d09b97d/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/a0c4d4818092ce0380874344943c92a0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/a0c4d4818092ce0380874344943c92a0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/dcbbc0ccb99023a3dfd7155d488e2645/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/dcbbc0ccb99023a3dfd7155d488e2645/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f98bea3f2209b23e05524b2da7207173/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f98bea3f2209b23e05524b2da7207173/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/3ca0d8173d844fdad56cf00785152693/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/3ca0d8173d844fdad56cf00785152693/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/ed2a00fb5a854cfababae71c1dafbd25/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/ed2a00fb5a854cfababae71c1dafbd25/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/a0c4d4818092ce0380874344943c92a0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/a0c4d4818092ce0380874344943c92a0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:16:22-76
+uses-permission#com.google.android.providers.gsf.permisson.READ_GSERVICES
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:17:5-97
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:17:22-94
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:18:22-78
+application
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:20:5-175:19
+MERGED from [com.android.support:design:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8c704df2a32674bf728d636e74eec274/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8c704df2a32674bf728d636e74eec274/AndroidManifest.xml:25:5-29:19
+MERGED from [com.github.rtoshiro.mflibrary:mflibrary:1.0.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/mflibrary-1.0.0.aar/5cab371f011a38ee9b9bc5e1b54d0044/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.rtoshiro.mflibrary:mflibrary:1.0.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/mflibrary-1.0.0.aar/5cab371f011a38ee9b9bc5e1b54d0044/AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.gms:play-services:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-11.4.0.aar/665b1b16ee78800aeb37ce81b104d942/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-11.4.0.aar/665b1b16ee78800aeb37ce81b104d942/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/851949a937de677401373ecfd6971a3a/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/851949a937de677401373ecfd6971a3a/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.4.0.aar/2d914e415ed7cb75ac25931260d72311/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-cast:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.4.0.aar/2d914e415ed7cb75ac25931260d72311/AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/e537fa2147cf688f2ec80d03717e7b9d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/e537fa2147cf688f2ec80d03717e7b9d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/01df6076adfb15ba1db4a08338805021/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/01df6076adfb15ba1db4a08338805021/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fba26e1f267ab0d42eca9910cf655c1b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fba26e1f267ab0d42eca9910cf655c1b/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/3d2b1faebaeae4896a5a71b8e2a777bc/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/3d2b1faebaeae4896a5a71b8e2a777bc/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-awareness:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.4.0.aar/0e9e2e67cbe2dc32d1543f59729f8642/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.4.0.aar/0e9e2e67cbe2dc32d1543f59729f8642/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fitness:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.4.0.aar/4c4ca35c6274ea83ecf7e8c7a6062d53/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fitness:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.4.0.aar/4c4ca35c6274ea83ecf7e8c7a6062d53/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/afda13a1f09c80b4fb3921a11b539db6/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/afda13a1f09c80b4fb3921a11b539db6/AndroidManifest.xml:4:5-19
+MERGED from [com.android.support:transition:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8255078b2d52d975b35ca3636193583f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8255078b2d52d975b35ca3636193583f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/dcbbc0ccb99023a3dfd7155d488e2645/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/dcbbc0ccb99023a3dfd7155d488e2645/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:26:5-31:19
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:26:5-31:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.4.0.aar/404ee828c6bfffee8e5c9a543e2cccfe/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.4.0.aar/404ee828c6bfffee8e5c9a543e2cccfe/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f98bea3f2209b23e05524b2da7207173/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f98bea3f2209b23e05524b2da7207173/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/d10f169ea94172c06e5eb303b8a7620c/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/d10f169ea94172c06e5eb303b8a7620c/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/7245bb648c6cf3910f572af1e15042d6/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/7245bb648c6cf3910f572af1e15042d6/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.firebase:firebase-config:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-config-11.4.0.aar/c87dc837938b199955f4ca2392b97418/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-config-11.4.0.aar/c87dc837938b199955f4ca2392b97418/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-games-11.4.0.aar/43b92f5841b48fdb7ba750502b1c7a37/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-games-11.4.0.aar/43b92f5841b48fdb7ba750502b1c7a37/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.4.0.aar/3180164ea1c973934346edece0933af5/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.4.0.aar/3180164ea1c973934346edece0933af5/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fido:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.4.0.aar/d750d04dc2590e1ca407067da2d643e4/AndroidManifest.xml:5:3-6:17
+MERGED from [com.google.android.gms:play-services-fido:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.4.0.aar/d750d04dc2590e1ca407067da2d643e4/AndroidManifest.xml:5:3-6:17
+MERGED from [com.google.firebase:firebase-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.4.0.aar/5d0c543a17eedefb882377a07986e3de/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.4.0.aar/5d0c543a17eedefb882377a07986e3de/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.0.aar/4b44fe98af260c35766046e82d2dcc3a/AndroidManifest.xml:5:3-17
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.0.aar/4b44fe98af260c35766046e82d2dcc3a/AndroidManifest.xml:5:3-17
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/5a3eb5d72f87dcc9b0360e109eda52d2/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/5a3eb5d72f87dcc9b0360e109eda52d2/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.4.0.aar/40885ebb8c80a671465aba9aeb255672/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.4.0.aar/40885ebb8c80a671465aba9aeb255672/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.4.0.aar/32c90bc92271941bd9a9aca614b39f30/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.4.0.aar/32c90bc92271941bd9a9aca614b39f30/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/40ac606d65ae6d0f396b305ac073da4f/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/40ac606d65ae6d0f396b305ac073da4f/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-places:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-places-11.4.0.aar/3cbfdd370774556445085a106024c732/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-places-11.4.0.aar/3cbfdd370774556445085a106024c732/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/3ca0d8173d844fdad56cf00785152693/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/3ca0d8173d844fdad56cf00785152693/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/ed2a00fb5a854cfababae71c1dafbd25/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/ed2a00fb5a854cfababae71c1dafbd25/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.0.aar/3490f233320f2be8ecf278ec293acc78/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.0.aar/3490f233320f2be8ecf278ec293acc78/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.4.0.aar/9e93300305b9c43612b8618ab329efb9/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.4.0.aar/9e93300305b9c43612b8618ab329efb9/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.4.0.aar/f495e980e8565cf26c3577f37fccba2d/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.4.0.aar/f495e980e8565cf26c3577f37fccba2d/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.4.0.aar/9bd0fe98540bc51b3416688d51634a95/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.4.0.aar/9bd0fe98540bc51b3416688d51634a95/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.4.0.aar/4619ea92e2cb9ecb7d8bed4670b3ea53/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.4.0.aar/4619ea92e2cb9ecb7d8bed4670b3ea53/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.4.0.aar/40c63225530a9385cac67e148954c8cb/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.4.0.aar/40c63225530a9385cac67e148954c8cb/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/ceb3fb637ae327eaeb3e4df38e0af557/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/ceb3fb637ae327eaeb3e4df38e0af557/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/edb025c61fb0ef4560ebff7b9d09b97d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/edb025c61fb0ef4560ebff7b9d09b97d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/37c12bf76affd0d5b6b89656ecc9f691/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/37c12bf76affd0d5b6b89656ecc9f691/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/a0c4d4818092ce0380874344943c92a0/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/a0c4d4818092ce0380874344943c92a0/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/430b55f66d8b8aa45c1c3a6566dd4eb8/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/430b55f66d8b8aa45c1c3a6566dd4eb8/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-gass:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.4.0.aar/decdd7095d843a8a8b8894bfdaa4a138/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.4.0.aar/decdd7095d843a8a8b8894bfdaa4a138/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/4053c251d92f86234039c87ed55a7a99/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/4053c251d92f86234039c87ed55a7a99/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/f7ec94d6756afe2d2229c86bdfa6acde/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/f7ec94d6756afe2d2229c86bdfa6acde/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9ce41f35609dfece24aa7c5e2b3f6a7a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9ce41f35609dfece24aa7c5e2b3f6a7a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cf27b08573e8cc6ac5e64b4a1c8044e5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cf27b08573e8cc6ac5e64b4a1c8044e5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0a8efa22a8ea91d501c06eceb167cf54/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0a8efa22a8ea91d501c06eceb167cf54/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/06d3ec4ae9d22fa5a548cb9523dd3fef/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/06d3ec4ae9d22fa5a548cb9523dd3fef/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.4.4.aar/90eaee95ecf42c95082aae5995ed2567/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.4.4.aar/90eaee95ecf42c95082aae5995ed2567/AndroidManifest.xml:7:5-11:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8a9c9de8c3c27ac07d70e0461428bb03/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8a9c9de8c3c27ac07d70e0461428bb03/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/74c8464d003844498bd848ca7cf46325/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/74c8464d003844498bd848ca7cf46325/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d00fb15175d02c769d3e3db7a3cd7f75/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d00fb15175d02c769d3e3db7a3cd7f75/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/0751303f018090c0736db67efc90e931/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/0751303f018090c0736db67efc90e931/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/9a6112c05011a533a011ad1873afd8a0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/9a6112c05011a533a011ad1873afd8a0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3a3efe19235a1cd7d1fe4c3eaaa2ed99/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3a3efe19235a1cd7d1fe4c3eaaa2ed99/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/52651732b8bc3e2c18e1edcbb853290f/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/52651732b8bc3e2c18e1edcbb853290f/AndroidManifest.xml:24:5-28:19
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:25:9-45
+	android:label
+		ADDED from [com.github.rtoshiro.mflibrary:mflibrary:1.0.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/mflibrary-1.0.0.aar/5cab371f011a38ee9b9bc5e1b54d0044/AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:26:9-35
+	android:background
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:22:9-37
+	android:roundIcon
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:24:9-54
+	android:icon
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:23:9-43
+	android:allowBackup
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:27:9-40
+activity#br.com.objetiveti.pedidodevendas.Effects.FadeInAnimation
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:28:9-37:20
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:30:13-49
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:31:13-55
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:29:13-84
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:35:27-74
+activity#br.com.objetiveti.pedidodevendas.Activities.AcQRCode
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:38:9-46:20
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:41:13-49
+	android:label
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:40:13-55
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:42:13-44
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:39:13-80
+intent-filter#category:name:android.intent.category.LAUNCHER
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:43:13-45:29
+activity#br.com.objetiveti.pedidodevendas.Activities.AcConfirmaQR
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:47:9-55:20
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:50:13-49
+	android:label
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:49:13-55
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:51:13-44
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:48:13-84
+activity#br.com.objetiveti.pedidodevendas.Activities.AcLogin
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:56:9-64:20
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:58:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:60:13-55
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:59:13-55
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:57:13-79
+activity#br.com.objetiveti.pedidodevendas.Activities.AcMain
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:65:9-70:20
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:68:13-49
+	android:label
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:67:13-48
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:66:13-78
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:72:9-74:39
+	android:value
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:74:13-36
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:73:13-70
+activity#br.com.objetiveti.pedidodevendas.Activities.AcNovoPedido
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:76:9-81:47
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:80:13-49
+	android:parentActivityName
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:79:13-98
+	android:label
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:78:13-63
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:81:13-44
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:77:13-84
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:91:9-93:55
+	android:value
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:93:13-52
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:92:13-58
+activity#br.com.objetiveti.pedidodevendas.Activities.AcMaps
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:95:9-104:20
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:99:13-49
+	android:parentActivityName
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:98:13-98
+	android:label
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:97:13-34
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:96:13-78
+activity#br.com.objetiveti.pedidodevendas.Activities.AcListaRotas
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:105:9-110:47
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:109:13-49
+	android:parentActivityName
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:108:13-98
+	android:label
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:107:13-54
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:110:13-44
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:106:13-84
+activity#br.com.objetiveti.pedidodevendas.Activities.AcMinhasVendas
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:111:9-116:47
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:115:13-49
+	android:parentActivityName
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:114:13-98
+	android:label
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:113:13-55
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:116:13-44
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:112:13-86
+activity#br.com.objetiveti.pedidodevendas.Activities.AcListaPedidos
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:117:9-125:20
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:120:13-49
+	android:label
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:119:13-75
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:121:13-56
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:118:13-86
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:122:13-124:29
+action#android.intent.action.SEARCH
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:123:17-71
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:123:25-68
+activity#br.com.objetiveti.pedidodevendas.Activities.AcListaClientes
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:126:9-138:20
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:129:13-49
+	android:label
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:128:13-66
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:130:13-44
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:127:13-87
+meta-data#android.app.searchable
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:135:13-137:56
+	android:resource
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:137:17-53
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:136:17-54
+activity#br.com.objetiveti.pedidodevendas.Activities.AcTelaCliente
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:139:9-143:59
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:142:13-49
+	android:label
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:141:13-64
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:143:13-56
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:140:13-85
+activity#br.com.objetiveti.pedidodevendas.Activities.AcClienteSelecionado
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:144:9-148:47
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:147:13-49
+	android:label
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:146:13-78
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:148:13-44
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:145:13-92
+activity#br.com.objetiveti.pedidodevendas.Activities.AcListaProdutos
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:149:9-154:47
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:153:13-49
+	android:parentActivityName
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:152:13-99
+	android:label
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:151:13-66
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:154:13-44
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:150:13-87
+activity#br.com.objetiveti.pedidodevendas.Activities.AcListaProdutosValores
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:155:9-159:47
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:158:13-49
+	android:label
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:157:13-78
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:159:13-44
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:156:13-94
+activity#br.com.objetiveti.pedidodevendas.Activities.AcFormaDePagamento
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:160:9-164:47
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:163:13-49
+	android:label
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:162:13-70
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:164:13-44
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:161:13-90
+activity#br.com.objetiveti.pedidodevendas.Activities.AcNovoCliente
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:165:9-171:58
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:169:13-49
+	android:label
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:168:13-64
+	android:windowSoftInputMode
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:171:13-55
+	android:configChanges
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:167:13-74
+	android:theme
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:170:13-44
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:166:13-85
+activity#br.com.objetiveti.pedidodevendas.Activities.AcRelatorios
+ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:172:9-174:52
+	android:screenOrientation
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:174:13-49
+	android:name
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml:173:13-84
+uses-sdk
+INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml
+INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/28324f2fd4ac514819611c4cd38dc087/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/28324f2fd4ac514819611c4cd38dc087/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8c704df2a32674bf728d636e74eec274/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8c704df2a32674bf728d636e74eec274/AndroidManifest.xml:21:5-23:62
+MERGED from [com.github.rtoshiro.mflibrary:mflibrary:1.0.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/mflibrary-1.0.0.aar/5cab371f011a38ee9b9bc5e1b54d0044/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.rtoshiro.mflibrary:mflibrary:1.0.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/mflibrary-1.0.0.aar/5cab371f011a38ee9b9bc5e1b54d0044/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-11.4.0.aar/665b1b16ee78800aeb37ce81b104d942/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-11.4.0.aar/665b1b16ee78800aeb37ce81b104d942/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/851949a937de677401373ecfd6971a3a/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/851949a937de677401373ecfd6971a3a/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.4.0.aar/2d914e415ed7cb75ac25931260d72311/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.4.0.aar/2d914e415ed7cb75ac25931260d72311/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/e537fa2147cf688f2ec80d03717e7b9d/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/e537fa2147cf688f2ec80d03717e7b9d/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/01df6076adfb15ba1db4a08338805021/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/01df6076adfb15ba1db4a08338805021/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fba26e1f267ab0d42eca9910cf655c1b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fba26e1f267ab0d42eca9910cf655c1b/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/3d2b1faebaeae4896a5a71b8e2a777bc/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/3d2b1faebaeae4896a5a71b8e2a777bc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-awareness:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.4.0.aar/0e9e2e67cbe2dc32d1543f59729f8642/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.4.0.aar/0e9e2e67cbe2dc32d1543f59729f8642/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fitness:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.4.0.aar/4c4ca35c6274ea83ecf7e8c7a6062d53/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fitness:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.4.0.aar/4c4ca35c6274ea83ecf7e8c7a6062d53/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/afda13a1f09c80b4fb3921a11b539db6/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/afda13a1f09c80b4fb3921a11b539db6/AndroidManifest.xml:3:5-43
+MERGED from [com.android.support:transition:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8255078b2d52d975b35ca3636193583f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8255078b2d52d975b35ca3636193583f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.4.0.aar/e498a55785a8bb286f1027e922bfaf2b/AndroidManifest.xml:17:5-94
+MERGED from [com.google.android.gms:play-services-ads:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.4.0.aar/e498a55785a8bb286f1027e922bfaf2b/AndroidManifest.xml:17:5-94
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/dcbbc0ccb99023a3dfd7155d488e2645/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/dcbbc0ccb99023a3dfd7155d488e2645/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-11.4.0.aar/84d14d14c9f15ab16a8b4e0e0d8b64c3/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-11.4.0.aar/84d14d14c9f15ab16a8b4e0e0d8b64c3/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.4.0.aar/404ee828c6bfffee8e5c9a543e2cccfe/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.4.0.aar/404ee828c6bfffee8e5c9a543e2cccfe/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f98bea3f2209b23e05524b2da7207173/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f98bea3f2209b23e05524b2da7207173/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/d10f169ea94172c06e5eb303b8a7620c/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/d10f169ea94172c06e5eb303b8a7620c/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/7245bb648c6cf3910f572af1e15042d6/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/7245bb648c6cf3910f572af1e15042d6/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.4.0.aar/e709b2f2de9047085dd754b43fe3723d/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.4.0.aar/e709b2f2de9047085dd754b43fe3723d/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.4.0.aar/becf2b1befb82b22fc9080c79da87f78/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.4.0.aar/becf2b1befb82b22fc9080c79da87f78/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-config:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-config-11.4.0.aar/c87dc837938b199955f4ca2392b97418/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-config-11.4.0.aar/c87dc837938b199955f4ca2392b97418/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-games-11.4.0.aar/43b92f5841b48fdb7ba750502b1c7a37/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-games-11.4.0.aar/43b92f5841b48fdb7ba750502b1c7a37/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.4.0.aar/3180164ea1c973934346edece0933af5/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.4.0.aar/3180164ea1c973934346edece0933af5/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fido:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.4.0.aar/d750d04dc2590e1ca407067da2d643e4/AndroidManifest.xml:4:3-41
+MERGED from [com.google.android.gms:play-services-fido:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.4.0.aar/d750d04dc2590e1ca407067da2d643e4/AndroidManifest.xml:4:3-41
+MERGED from [com.google.firebase:firebase-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.4.0.aar/5d0c543a17eedefb882377a07986e3de/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.4.0.aar/5d0c543a17eedefb882377a07986e3de/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.0.aar/4b44fe98af260c35766046e82d2dcc3a/AndroidManifest.xml:3:3-41
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.0.aar/4b44fe98af260c35766046e82d2dcc3a/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/5a3eb5d72f87dcc9b0360e109eda52d2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/5a3eb5d72f87dcc9b0360e109eda52d2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.4.0.aar/40885ebb8c80a671465aba9aeb255672/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.4.0.aar/40885ebb8c80a671465aba9aeb255672/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.4.0.aar/fd77097288616ef08b2e0f557242f239/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.4.0.aar/fd77097288616ef08b2e0f557242f239/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.4.0.aar/32c90bc92271941bd9a9aca614b39f30/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.4.0.aar/32c90bc92271941bd9a9aca614b39f30/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/40ac606d65ae6d0f396b305ac073da4f/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/40ac606d65ae6d0f396b305ac073da4f/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-11.4.0.aar/793542a93108e5be50f8fdc4a3900842/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-11.4.0.aar/793542a93108e5be50f8fdc4a3900842/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-places:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-places-11.4.0.aar/3cbfdd370774556445085a106024c732/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-places-11.4.0.aar/3cbfdd370774556445085a106024c732/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/3ca0d8173d844fdad56cf00785152693/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/3ca0d8173d844fdad56cf00785152693/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/ed2a00fb5a854cfababae71c1dafbd25/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/ed2a00fb5a854cfababae71c1dafbd25/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.0.aar/3490f233320f2be8ecf278ec293acc78/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.0.aar/3490f233320f2be8ecf278ec293acc78/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.4.0.aar/9e93300305b9c43612b8618ab329efb9/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.4.0.aar/9e93300305b9c43612b8618ab329efb9/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.4.0.aar/f495e980e8565cf26c3577f37fccba2d/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.4.0.aar/f495e980e8565cf26c3577f37fccba2d/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.4.0.aar/9bd0fe98540bc51b3416688d51634a95/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.4.0.aar/9bd0fe98540bc51b3416688d51634a95/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.4.0.aar/4619ea92e2cb9ecb7d8bed4670b3ea53/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.4.0.aar/4619ea92e2cb9ecb7d8bed4670b3ea53/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.4.0.aar/40c63225530a9385cac67e148954c8cb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.4.0.aar/40c63225530a9385cac67e148954c8cb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/ceb3fb637ae327eaeb3e4df38e0af557/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/ceb3fb637ae327eaeb3e4df38e0af557/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/edb025c61fb0ef4560ebff7b9d09b97d/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/edb025c61fb0ef4560ebff7b9d09b97d/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-database:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-database-11.4.0.aar/2edb050df452d86a1917016f05e2d663/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-database-11.4.0.aar/2edb050df452d86a1917016f05e2d663/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.4.0.aar/fd38160e27cc83537a7f81f709f14778/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.4.0.aar/fd38160e27cc83537a7f81f709f14778/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/37c12bf76affd0d5b6b89656ecc9f691/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/37c12bf76affd0d5b6b89656ecc9f691/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/a0c4d4818092ce0380874344943c92a0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/a0c4d4818092ce0380874344943c92a0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.4.0.aar/796caf596562613df351dde5e3a2e28f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.4.0.aar/796caf596562613df351dde5e3a2e28f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.4.0.aar/d12214b2da7d6e789fecbbb0d7ef6ccc/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.4.0.aar/d12214b2da7d6e789fecbbb0d7ef6ccc/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/430b55f66d8b8aa45c1c3a6566dd4eb8/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/430b55f66d8b8aa45c1c3a6566dd4eb8/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.4.0.aar/decdd7095d843a8a8b8894bfdaa4a138/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.4.0.aar/decdd7095d843a8a8b8894bfdaa4a138/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/4053c251d92f86234039c87ed55a7a99/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/4053c251d92f86234039c87ed55a7a99/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/f7ec94d6756afe2d2229c86bdfa6acde/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/f7ec94d6756afe2d2229c86bdfa6acde/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9ce41f35609dfece24aa7c5e2b3f6a7a/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9ce41f35609dfece24aa7c5e2b3f6a7a/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cf27b08573e8cc6ac5e64b4a1c8044e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cf27b08573e8cc6ac5e64b4a1c8044e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0a8efa22a8ea91d501c06eceb167cf54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0a8efa22a8ea91d501c06eceb167cf54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/06d3ec4ae9d22fa5a548cb9523dd3fef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/06d3ec4ae9d22fa5a548cb9523dd3fef/AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.4.4.aar/90eaee95ecf42c95082aae5995ed2567/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.4.4.aar/90eaee95ecf42c95082aae5995ed2567/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8a9c9de8c3c27ac07d70e0461428bb03/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8a9c9de8c3c27ac07d70e0461428bb03/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/74c8464d003844498bd848ca7cf46325/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/74c8464d003844498bd848ca7cf46325/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d00fb15175d02c769d3e3db7a3cd7f75/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d00fb15175d02c769d3e3db7a3cd7f75/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/0751303f018090c0736db67efc90e931/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/0751303f018090c0736db67efc90e931/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/9a6112c05011a533a011ad1873afd8a0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/9a6112c05011a533a011ad1873afd8a0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3a3efe19235a1cd7d1fe4c3eaaa2ed99/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3a3efe19235a1cd7d1fe4c3eaaa2ed99/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/52651732b8bc3e2c18e1edcbb853290f/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/52651732b8bc3e2c18e1edcbb853290f/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml
+INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8c704df2a32674bf728d636e74eec274/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml
+		ADDED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8c704df2a32674bf728d636e74eec274/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/01df6076adfb15ba1db4a08338805021/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/01df6076adfb15ba1db4a08338805021/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8255078b2d52d975b35ca3636193583f/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8255078b2d52d975b35ca3636193583f/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9ce41f35609dfece24aa7c5e2b3f6a7a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9ce41f35609dfece24aa7c5e2b3f6a7a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cf27b08573e8cc6ac5e64b4a1c8044e5/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cf27b08573e8cc6ac5e64b4a1c8044e5/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0a8efa22a8ea91d501c06eceb167cf54/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0a8efa22a8ea91d501c06eceb167cf54/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/06d3ec4ae9d22fa5a548cb9523dd3fef/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/06d3ec4ae9d22fa5a548cb9523dd3fef/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8a9c9de8c3c27ac07d70e0461428bb03/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8a9c9de8c3c27ac07d70e0461428bb03/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/74c8464d003844498bd848ca7cf46325/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/74c8464d003844498bd848ca7cf46325/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d00fb15175d02c769d3e3db7a3cd7f75/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d00fb15175d02c769d3e3db7a3cd7f75/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/9a6112c05011a533a011ad1873afd8a0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/9a6112c05011a533a011ad1873afd8a0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3a3efe19235a1cd7d1fe4c3eaaa2ed99/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3a3efe19235a1cd7d1fe4c3eaaa2ed99/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8c704df2a32674bf728d636e74eec274/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8c704df2a32674bf728d636e74eec274/AndroidManifest.xml:27:13-51
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/851949a937de677401373ecfd6971a3a/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/851949a937de677401373ecfd6971a3a/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/851949a937de677401373ecfd6971a3a/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/851949a937de677401373ecfd6971a3a/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/851949a937de677401373ecfd6971a3a/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/851949a937de677401373ecfd6971a3a/AndroidManifest.xml:7:18-90
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/dcbbc0ccb99023a3dfd7155d488e2645/AndroidManifest.xml:25:9-257
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/dcbbc0ccb99023a3dfd7155d488e2645/AndroidManifest.xml:25:231-255
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/dcbbc0ccb99023a3dfd7155d488e2645/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/dcbbc0ccb99023a3dfd7155d488e2645/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/dcbbc0ccb99023a3dfd7155d488e2645/AndroidManifest.xml:25:19-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f98bea3f2209b23e05524b2da7207173/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/f98bea3f2209b23e05524b2da7207173/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/a0c4d4818092ce0380874344943c92a0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/a0c4d4818092ce0380874344943c92a0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:24:22-65
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:27:9-28:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:27:85-107
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:27:108-132
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:27:19-84
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:29:9-132
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:29:83-105
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:29:106-130
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:29:18-82
+service#com.google.android.gms.analytics.AnalyticsJobService
+ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:30:9-192
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:30:143-165
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:30:166-190
+	android:permission
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:30:86-142
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/56f440bcfa1e28d785db76748cb6ead9/AndroidManifest.xml:30:18-85
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/d10f169ea94172c06e5eb303b8a7620c/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/d10f169ea94172c06e5eb303b8a7620c/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/d10f169ea94172c06e5eb303b8a7620c/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/d10f169ea94172c06e5eb303b8a7620c/AndroidManifest.xml:20:19-50
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/d10f169ea94172c06e5eb303b8a7620c/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/d10f169ea94172c06e5eb303b8a7620c/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/d10f169ea94172c06e5eb303b8a7620c/AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/d10f169ea94172c06e5eb303b8a7620c/AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/d10f169ea94172c06e5eb303b8a7620c/AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/7245bb648c6cf3910f572af1e15042d6/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/7245bb648c6cf3910f572af1e15042d6/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/7245bb648c6cf3910f572af1e15042d6/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/7245bb648c6cf3910f572af1e15042d6/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/7245bb648c6cf3910f572af1e15042d6/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/7245bb648c6cf3910f572af1e15042d6/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/7245bb648c6cf3910f572af1e15042d6/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/7245bb648c6cf3910f572af1e15042d6/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/7245bb648c6cf3910f572af1e15042d6/AndroidManifest.xml:24:18-63
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/5a3eb5d72f87dcc9b0360e109eda52d2/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/40ac606d65ae6d0f396b305ac073da4f/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/40ac606d65ae6d0f396b305ac073da4f/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:22:5-81
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/5a3eb5d72f87dcc9b0360e109eda52d2/AndroidManifest.xml:20:22-79
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/3ca0d8173d844fdad56cf00785152693/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/3ca0d8173d844fdad56cf00785152693/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/3ca0d8173d844fdad56cf00785152693/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/ceb3fb637ae327eaeb3e4df38e0af557/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/ceb3fb637ae327eaeb3e4df38e0af557/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/ceb3fb637ae327eaeb3e4df38e0af557/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/ceb3fb637ae327eaeb3e4df38e0af557/AndroidManifest.xml:19:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/37c12bf76affd0d5b6b89656ecc9f691/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/37c12bf76affd0d5b6b89656ecc9f691/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/37c12bf76affd0d5b6b89656ecc9f691/AndroidManifest.xml:23:18-87
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/37c12bf76affd0d5b6b89656ecc9f691/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/37c12bf76affd0d5b6b89656ecc9f691/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/37c12bf76affd0d5b6b89656ecc9f691/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/37c12bf76affd0d5b6b89656ecc9f691/AndroidManifest.xml:25:25-75
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:25:118-142
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:25:94-117
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:25:19-93
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.${applicationId}
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:26:13-31:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.br.com.objetiveti.forcadevendas
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/73f9500f71fafec82beb0eb4512f621a/AndroidManifest.xml:30:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/a0c4d4818092ce0380874344943c92a0/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/a0c4d4818092ce0380874344943c92a0/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:27:17-104
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/a0c4d4818092ce0380874344943c92a0/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/a0c4d4818092ce0380874344943c92a0/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/441c43cb3e166a967815af510db741c4/AndroidManifest.xml:33:16-90
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:24:17-71
+permission#br.com.objetiveti.forcadevendas.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:26:22-76
+uses-permission#br.com.objetiveti.forcadevendas.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:br.com.objetiveti.forcadevendas
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:33:27-58
+category#br.com.objetiveti.forcadevendas
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:43:18-82
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/f26803ed6256ccce7c9bb4b9e4397e4b/AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/430b55f66d8b8aa45c1c3a6566dd4eb8/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/430b55f66d8b8aa45c1c3a6566dd4eb8/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/430b55f66d8b8aa45c1c3a6566dd4eb8/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/430b55f66d8b8aa45c1c3a6566dd4eb8/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/430b55f66d8b8aa45c1c3a6566dd4eb8/AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/f7ec94d6756afe2d2229c86bdfa6acde/AndroidManifest.xml:20:9-121
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.4.4.aar/90eaee95ecf42c95082aae5995ed2567/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.4.4.aar/90eaee95ecf42c95082aae5995ed2567/AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/f7ec94d6756afe2d2229c86bdfa6acde/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/f7ec94d6756afe2d2229c86bdfa6acde/AndroidManifest.xml:20:20-65
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/52651732b8bc3e2c18e1edcbb853290f/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/52651732b8bc3e2c18e1edcbb853290f/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/arthurbucar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/52651732b8bc3e2c18e1edcbb853290f/AndroidManifest.xml:26:13-58

@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Thu Nov 08 17:25:09 BRT 2018
+1.base=/Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/build/intermediates/assets/debug
+2.path=classes.dex
+0.baseType=DIRECTORY
+2.base=/Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/build/intermediates/transforms/dexMerger/debug/13
+2.set=DEX
+1.baseType=DIRECTORY
+count=3
+1.set=ASSET
+0.path=classes.dex
+0.set=DEX
+0.base=/Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/build/intermediates/transforms/dexMerger/debug/12
+2.baseType=DIRECTORY
+1.path=ForcaVendas.db

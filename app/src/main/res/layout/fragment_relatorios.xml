@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AcRelatorios">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/metadia"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/metadia"
+            android:paddingTop="10dp"
+            android:text="Meta do Dia"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/primeiroVALOR"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="135dp"
+            android:layout_marginRight="16dp"
+            android:gravity="right"
+            android:paddingTop="13dp"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/barra"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="245dp"
+            android:layout_marginRight="16dp"
+            android:gravity="right"
+            android:paddingTop="13dp"
+            android:text="/"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/segundoVALOR"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="255dp"
+            android:layout_marginRight="12dp"
+            android:gravity="left"
+            android:paddingTop="13dp"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+        <ProgressBar
+            android:id="@+id/metaDiaRelatorio"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="3dp"
+            android:progressTint="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="70dp"
+            android:text="Meta de Vendas"
+            android:layout_marginLeft="16dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="120dp"
+        android:id="@+id/relativeLayout4">
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/bargrahp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+        </com.github.mikephil.charting.charts.BarChart>
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvContent"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:text="R$ 953"-->
+            <!--android:textSize="12dp"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:ellipsize="end"-->
+            <!--android:singleLine="true"-->
+            <!--android:textAppearance="?android:attr/textAppearanceSmall" />-->
+
+    </RelativeLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_meta"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Meta"-->
+        <!--android:layout_marginLeft="81dp"-->
+        <!--android:layout_marginStart="81dp"-->
+        <!--android:layout_alignBottom="@+id/relativeLayout4"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_media_diaria"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Média Diária"-->
+        <!--android:layout_alignBottom="@+id/relativeLayout4"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_projecao"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Projeção"-->
+        <!--android:layout_marginLeft="45dp"-->
+        <!--android:layout_marginStart="45dp"-->
+        <!--android:layout_alignBottom="@+id/relativeLayout4"-->
+        <!--android:layout_toRightOf="@+id/tv_media_diaria"-->
+        <!--android:layout_toEndOf="@+id/tv_media_diaria" />-->
+
+</RelativeLayout>

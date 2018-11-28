@@ -1,0 +1,186 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".Fragments.InicioFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:text="Meta do Dia"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/primeiroValorProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="-25dp"
+                android:layout_marginRight="125dp"
+                android:gravity="right"
+                android:layout_marginLeft="16dp"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/barra"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="110dp"
+                android:gravity="right"
+                android:layout_marginLeft="16dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:text="/" />
+
+            <TextView
+                android:id="@+id/segundoValorProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="15dp"
+                android:gravity="right"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/metadia"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="-20dp"
+                android:progress="15"
+                android:progressTint="@color/colorPrimary"
+                android:textStyle="bold" />
+
+            <!--<ListView-->
+            <!--android:id="@+id/listinicio"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="365dp"-->
+            <!--android:layout_gravity="center_vertical" />-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|fill_vertical"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="28dp"
+                android:text="Rotas"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/bnt_chama_listarota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#00000000"
+            android:text="Ver Todas"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="13dp" />
+    </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:foregroundGravity="bottom"
+                android:paddingLeft="0dp">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rvList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/rvList"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/rvList"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="0.60"></android.support.v7.widget.RecyclerView>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/rvList"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Minhas Vendas"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/bnt_chama_minhasvendas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView4"
+                    android:layout_alignBottom="@+id/textView4"
+                    android:layout_alignEnd="@+id/rvList"
+                    android:layout_alignRight="@+id/rvList"
+                    android:layout_gravity="right"
+                    android:textAllCaps="false"
+                    android:background="#00000000"
+                    android:textSize="18dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Ver Todas"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rvList02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/rvList"
+                    android:layout_alignStart="@+id/rvList"
+                    android:layout_below="@+id/textView4"
+                    android:layout_marginBottom="-11dp"
+                    android:layout_weight="0.60"
+                    android:foregroundGravity="bottom|center" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
+

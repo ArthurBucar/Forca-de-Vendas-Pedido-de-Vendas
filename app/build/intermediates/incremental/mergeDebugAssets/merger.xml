@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/main/assets"/><source path="/Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/debug/assets"><file name="ForcaVendas.db" path="/Users/arthurbucar/AndroidStudioProjects/PedidoDeVendas/app/src/debug/assets/ForcaVendas.db"/></source></dataSet></merger>

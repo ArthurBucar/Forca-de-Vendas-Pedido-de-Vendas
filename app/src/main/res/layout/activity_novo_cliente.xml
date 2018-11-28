@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Activities.AcNovoCliente">
+
+    <TextView
+        android:id="@+id/label_texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="5dp"
+        android:text="Tipo de Cadastro"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_texto"
+        android:paddingTop="5dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:checked="true"
+            android:text="Jurídico"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="-32dp"
+            android:text="Físico"
+            android:textSize="14sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/label_cnpj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/label_texto"
+        android:layout_alignStart="@+id/label_texto"
+        android:layout_below="@+id/radioGroup3"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:text="CNPJ"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/edit_cnpj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/razaosocial"
+        android:layout_alignStart="@+id/razaosocial"
+        android:layout_below="@+id/label_cnpj"
+        android:inputType="phone"
+        android:imeOptions="actionNext"
+        android:layout_marginRight="16dp"
+        android:maxLength="14"
+        android:hint="@string/cnpj"
+        android:paddingRight="16dp" />
+
+    <EditText
+        android:id="@+id/razaosocial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_cnpj"
+        android:layout_marginLeft="16dp"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/razaosocial" />
+
+    <EditText
+        android:id="@+id/endereco"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_below="@id/razaosocial"
+        android:layout_marginLeft="16dp"
+        android:hint="@string/endereco"/>
+
+    <EditText
+        android:id="@+id/bairro"
+        android:layout_marginTop="16dp"
+        android:layout_width="150dp"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/endereco"
+        android:layout_marginLeft="16dp"
+        android:hint="@string/bairro"/>
+
+    <EditText
+        android:id="@+id/cidade"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cidade"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/endereco"
+        android:layout_toRightOf="@+id/bairro"
+        android:layout_toEndOf="@+id/bairro" />
+
+    <EditText
+        android:id="@+id/cep"
+        android:layout_width="150dp"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:inputType="number"
+        android:imeOptions="actionNext"
+        android:layout_below="@id/cidade"
+        android:layout_marginLeft="16dp"
+        android:hint="@string/cep"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/bnt_persistir"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/label_cnpj"-->
+        <!--android:layout_alignEnd="@+id/edit_cnpj"-->
+        <!--android:layout_alignRight="@+id/edit_cnpj"-->
+        <!--android:text="Persistir Dados" />-->
+
+    <EditText
+        android:id="@+id/uf"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/uf"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_toRightOf="@+id/cep"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/cidade" />
+
+    <EditText
+        android:id="@+id/telefone_comercial"
+        android:layout_marginTop="16dp"
+        android:layout_width="165dp"
+        android:inputType="phone"
+        android:imeOptions="actionNext"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/cep"
+        android:layout_marginLeft="16dp"
+        android:hint="@string/telefone_comercial"/>
+
+    <EditText
+        android:id="@+id/celular"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/celular"
+        android:inputType="phone"
+        android:imeOptions="actionNext"
+        android:layout_toRightOf="@+id/telefone_comercial"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/uf" />
+
+    <EditText
+        android:id="@+id/contato"
+        android:layout_marginTop="16dp"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/telefone_comercial"
+        android:layout_marginLeft="16dp"
+        android:hint="@string/contato"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:hint="@string/email"
+        android:layout_toRightOf="@+id/contato"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/celular" />
+
+</RelativeLayout>

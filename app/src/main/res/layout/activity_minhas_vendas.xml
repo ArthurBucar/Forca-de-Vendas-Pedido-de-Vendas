@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AcMinhasVendas">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="0dp"
+            android:layout_marginTop="16dp"
+            tools:layout_editor_absoluteX="8dp">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteY="8dp"
+                tools:layout_editor_absoluteX="8dp"
+                android:id="@+id/scrollView2">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvList02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/rvList"
+                android:layout_alignStart="@+id/rvList"
+                android:layout_below="@+id/textView4"
+                android:layout_marginBottom="-11dp"
+                android:layout_weight="0.60" />
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="408dp">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="70dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:text="Total"
+                android:textSize="20sp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/valorTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginRight="16dp"
+                android:foregroundGravity="right"
+                android:gravity="right"
+                android:textColor="#FFF"
+                android:layout_weight="0.34" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

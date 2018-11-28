@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cnome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#000000"
+        android:paddingRight="30dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#b9b4b4"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ccc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#ff0"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ddd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#ff0"
+        android:textSize="18sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image_cliente"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:layout_marginLeft="20dp"
+    android:layout_marginTop="30dp"
+        android:elevation="0dp"
+        android:src="@drawable/imagemtelalogim"
+        app:civ_border_color="#00000000"
+        app:civ_border_width="4dp" />
+
+    <View
+        android:id="@+id/vw_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/cstatus"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:background="#DDD"></View>
+
+</RelativeLayout>

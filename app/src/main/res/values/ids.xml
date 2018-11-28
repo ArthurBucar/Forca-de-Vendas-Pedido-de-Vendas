@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_favorite" type="id">configrure</item>
+    <item name="tvContent" type="id">hi</item>
+    <item name="popupbutton" type="id">REBULICO</item>
+</resources>
